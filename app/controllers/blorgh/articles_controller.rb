@@ -4,7 +4,7 @@ module Blorgh
   class ArticlesController < ApplicationController
     before_action :set_article, only: [:show, :edit, :update, :destroy]
 
-    # GET /articles
+    # GET /articles index page
     def index
       @articles = Article.all
     end
