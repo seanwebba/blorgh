@@ -9,7 +9,7 @@ Gem::Specification.new do |s|
   s.version     = Blorgh::VERSION
   s.authors     = ["seanwebba"]
   s.email       = ["sean.webba@gmail.com"]
-  s.homepage    = "IPromiseToFixThisLater"
+  s.homepage    = "https://github.com/seanwebba/blorgh"
   s.summary     = "Blog Engine for Rails"
   s.description = "Blog Engine for Rails"
   s.license     = "MIT"
@@ -19,5 +19,4 @@ Gem::Specification.new do |s|
 
   s.add_dependency "rails", "~> 4.2.5"
 
-  s.add_development_dependency "sqlite3"
 end
