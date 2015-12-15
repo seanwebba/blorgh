@@ -7,17 +7,17 @@ require "blorgh/version"
 Gem::Specification.new do |s|
   s.name        = "blorgh"
   s.version     = Blorgh::VERSION
-  s.authors     = ["suresh4154"]
-  s.email       = ["suresh.torlapati@senecaglobal.com"]
-  s.homepage    = ""
-  s.summary     = "blog implementation"
-  s.description = "blog implementation"
+  s.authors     = ["seanwebba"]
+  s.email       = ["sean.webba@gmail.com"]
+  s.homepage    = "TODO"
+  s.summary     = "TODO: Summary of Blorgh."
+  s.description = "TODO: Description of Blorgh."
   s.license     = "MIT"
 
   s.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.rdoc"]
   s.test_files = Dir["test/**/*"]
 
-  s.add_dependency "rails", "~> 4.2.0"
+  s.add_dependency "rails", "~> 4.2.5"
 
   s.add_development_dependency "sqlite3"
 end
